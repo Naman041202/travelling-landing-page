@@ -1,0 +1,285 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* HEADER */
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/pic2.jpg');
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+}
+
+.menu a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu a:hover {
+    color: darkslategray;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+
+}
+
+.register a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 45, 45);
+    border-radius: 5px;
+    padding: 5px 15px;
+
+}
+
+.register a:hover {
+    background-color: transparent;
+    color: darkslategray;
+    border: 1px solid indianred;
+}
+
+.maintext {
+    max-width: 800px;
+    text-align: center;
+    justify-content: center;
+    margin: 30vh 60vh;
+}
+
+.maintext span {
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+
+.maintext h1 {
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+.maintext a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 45, 45);
+    border-radius: 5px;
+    padding: 10px 15px;
+    letter-spacing: 3px;
+}
+
+.maintext a:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid indianred;
+    letter-spacing: 5px;
+    transition: 0.6s;
+}
+
+
+/* SECTION DESTINATION  */
+
+
+.destination {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/pic3.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+.heading h1 {
+    margin-bottom: 15px;
+}
+
+.heading p {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.heading a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 45, 45);
+    border-radius: 45px;
+    padding: 10px 15px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.heading a:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid indianred;
+    letter-spacing: 5px;
+    transition: 0.6s;
+}
+
+.plans {
+    width: 70%;
+    display: flex;
+}
+
+.places {
+    display: inline;
+    text-align: center;
+}
+
+.places img {
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.places h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.places h2:hover {
+    text-decoration: underline;
+    color: rgb(29, 46, 46);
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+
+.places a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 45, 45);
+    border-radius: 9px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.places a:hover {
+    background-color: rgb(224, 203, 186);
+    color: rgb(0, 0, 0);
+    border: 1px solidrgb(224, 203, 186);
+}
+
+/* CONTACT */
+
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/pic4.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    display: block;
+}
+
+.form-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-form {
+    background:transparent ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.formtext {
+    max-width: 50%;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.form {
+    padding-top: 100px;
+}
+
+.formtext h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.formtext p {
+    font-size: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form button {
+    margin-left: 150px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 45, 45);
+    border-radius: 9px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solidrgb(224, 203, 186);
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    margin: 2rem;
+    color:white;
+}
